@@ -1,0 +1,32 @@
+.backGround-img{
+    background-image: Url('../Images/home.jpg');
+    background-size: cover;
+}
+
+.backGround-Dash{
+    background-image: Url('../Images/dashboard-Back.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.box             { display: -webkit-flex; display: -ms-flexbox; display: flex; overflow: hidden;
+    border-right: 1px solid gray;padding:5px;
+    
+}
+.box .column     { flex: 1; margin-right: 10px; padding: 15px;}
+
+.box .column .btn{
+    position: absolute;
+    right:    0;
+    bottom:  0;
+}
+
+.cont{
+    overflow: scroll;
+    height: 87vh;
+}
+
+.text-small{
+    font-size: .8em;
+}
